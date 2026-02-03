@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Next.js
+.next/
+out/
+
+# Env (keep .env.local.example)
+.env
+.env.local
+.env*.local
+!.env.local.example
+
+# Supabase schema (ignored for now)
+supabase/schema.sql
+
+# Debug / OS
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+
+# Vercel
+.vercel
+
+# TypeScript
+next-env.d.ts
